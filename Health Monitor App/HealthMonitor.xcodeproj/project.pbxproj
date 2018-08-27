@@ -40,17 +40,17 @@
 /* Begin PBXFileReference section */
 		70D81D892037E545007AD051 /* weeklyQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weeklyQueue.swift; sourceTree = "<group>"; };
 		70D81D8B2038ADB0007AD051 /* calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculation.swift; sourceTree = "<group>"; };
-		70FE9CB42033667F00931D60 /* CSE335_Homework_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSE335_Homework_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70FE9CB42033667F00931D60 /* HealthMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FE9CB72033667F00931D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70FE9CB92033667F00931D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70FE9CBC2033667F00931D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70FE9CBE2033667F00931D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70FE9CC12033667F00931D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70FE9CC32033667F00931D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70FE9CC82033668000931D60 /* CSE335_Homework_01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSE335_Homework_01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70FE9CC82033668000931D60 /* HealthMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FE9CCC2033668000931D60 /* CSE335_Homework_01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSE335_Homework_01Tests.swift; sourceTree = "<group>"; };
 		70FE9CCE2033668000931D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70FE9CD32033668000931D60 /* CSE335_Homework_01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSE335_Homework_01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70FE9CD32033668000931D60 /* HealthMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FE9CD72033668000931D60 /* CSE335_Homework_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSE335_Homework_01UITests.swift; sourceTree = "<group>"; };
 		70FE9CD92033668000931D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70FE9CE5203429E600931D60 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -86,9 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				70FE9CE820354AAB00931D60 /* Model */,
-				70FE9CB62033667F00931D60 /* CSE335_Homework_01 */,
-				70FE9CCB2033668000931D60 /* CSE335_Homework_01Tests */,
-				70FE9CD62033668000931D60 /* CSE335_Homework_01UITests */,
+				70FE9CB62033667F00931D60 /* HealthMonitor */,
+				70FE9CCB2033668000931D60 /* HealthMonitor Tests */,
+				70FE9CD62033668000931D60 /* HealMonitorUITests */,
 				70FE9CB52033667F00931D60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,14 +96,14 @@
 		70FE9CB52033667F00931D60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70FE9CB42033667F00931D60 /* CSE335_Homework_01.app */,
-				70FE9CC82033668000931D60 /* CSE335_Homework_01Tests.xctest */,
-				70FE9CD32033668000931D60 /* CSE335_Homework_01UITests.xctest */,
+				70FE9CB42033667F00931D60 /* HealthMonitor.app */,
+				70FE9CC82033668000931D60 /* HealthMonitorTests.xctest */,
+				70FE9CD32033668000931D60 /* HealthMonitorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70FE9CB62033667F00931D60 /* CSE335_Homework_01 */ = {
+		70FE9CB62033667F00931D60 /* HealthMonitor */ = {
 			isa = PBXGroup;
 			children = (
 				70FE9CB72033667F00931D60 /* AppDelegate.swift */,
@@ -114,25 +114,25 @@
 				70FE9CC02033667F00931D60 /* LaunchScreen.storyboard */,
 				70FE9CC32033667F00931D60 /* Info.plist */,
 			);
-			path = CSE335_Homework_01;
+			path = HealthMonitor;
 			sourceTree = "<group>";
 		};
-		70FE9CCB2033668000931D60 /* CSE335_Homework_01Tests */ = {
+		70FE9CCB2033668000931D60 /* HealthMonitor Tests */ = {
 			isa = PBXGroup;
 			children = (
 				70FE9CCC2033668000931D60 /* CSE335_Homework_01Tests.swift */,
 				70FE9CCE2033668000931D60 /* Info.plist */,
 			);
-			path = CSE335_Homework_01Tests;
+			path = "HealthMonitor Tests";
 			sourceTree = "<group>";
 		};
-		70FE9CD62033668000931D60 /* CSE335_Homework_01UITests */ = {
+		70FE9CD62033668000931D60 /* HealMonitorUITests */ = {
 			isa = PBXGroup;
 			children = (
 				70FE9CD72033668000931D60 /* CSE335_Homework_01UITests.swift */,
 				70FE9CD92033668000931D60 /* Info.plist */,
 			);
-			path = CSE335_Homework_01UITests;
+			path = HealMonitorUITests;
 			sourceTree = "<group>";
 		};
 		70FE9CE820354AAB00931D60 /* Model */ = {
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70FE9CB32033667F00931D60 /* CSE335_Homework_01 */ = {
+		70FE9CB32033667F00931D60 /* HealthMonitor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70FE9CDC2033668000931D60 /* Build configuration list for PBXNativeTarget "CSE335_Homework_01" */;
+			buildConfigurationList = 70FE9CDC2033668000931D60 /* Build configuration list for PBXNativeTarget "HealthMonitor" */;
 			buildPhases = (
 				70FE9CB02033667F00931D60 /* Sources */,
 				70FE9CB12033667F00931D60 /* Frameworks */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = CSE335_Homework_01;
+			name = HealthMonitor;
 			productName = CSE335_Homework_01;
-			productReference = 70FE9CB42033667F00931D60 /* CSE335_Homework_01.app */;
+			productReference = 70FE9CB42033667F00931D60 /* HealthMonitor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		70FE9CC72033668000931D60 /* CSE335_Homework_01Tests */ = {
+		70FE9CC72033668000931D60 /* HealthMonitorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70FE9CDF2033668000931D60 /* Build configuration list for PBXNativeTarget "CSE335_Homework_01Tests" */;
+			buildConfigurationList = 70FE9CDF2033668000931D60 /* Build configuration list for PBXNativeTarget "HealthMonitorTests" */;
 			buildPhases = (
 				70FE9CC42033668000931D60 /* Sources */,
 				70FE9CC52033668000931D60 /* Frameworks */,
@@ -178,14 +178,14 @@
 			dependencies = (
 				70FE9CCA2033668000931D60 /* PBXTargetDependency */,
 			);
-			name = CSE335_Homework_01Tests;
+			name = HealthMonitorTests;
 			productName = CSE335_Homework_01Tests;
-			productReference = 70FE9CC82033668000931D60 /* CSE335_Homework_01Tests.xctest */;
+			productReference = 70FE9CC82033668000931D60 /* HealthMonitorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		70FE9CD22033668000931D60 /* CSE335_Homework_01UITests */ = {
+		70FE9CD22033668000931D60 /* HealthMonitorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70FE9CE22033668000931D60 /* Build configuration list for PBXNativeTarget "CSE335_Homework_01UITests" */;
+			buildConfigurationList = 70FE9CE22033668000931D60 /* Build configuration list for PBXNativeTarget "HealthMonitorUITests" */;
 			buildPhases = (
 				70FE9CCF2033668000931D60 /* Sources */,
 				70FE9CD02033668000931D60 /* Frameworks */,
@@ -196,9 +196,9 @@
 			dependencies = (
 				70FE9CD52033668000931D60 /* PBXTargetDependency */,
 			);
-			name = CSE335_Homework_01UITests;
+			name = HealthMonitorUITests;
 			productName = CSE335_Homework_01UITests;
-			productReference = 70FE9CD32033668000931D60 /* CSE335_Homework_01UITests.xctest */;
+			productReference = 70FE9CD32033668000931D60 /* HealthMonitorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 70FE9CAF2033667F00931D60 /* Build configuration list for PBXProject "CSE335_Homework_01" */;
+			buildConfigurationList = 70FE9CAF2033667F00931D60 /* Build configuration list for PBXProject "HealthMonitor" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -243,9 +243,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70FE9CB32033667F00931D60 /* CSE335_Homework_01 */,
-				70FE9CC72033668000931D60 /* CSE335_Homework_01Tests */,
-				70FE9CD22033668000931D60 /* CSE335_Homework_01UITests */,
+				70FE9CB32033667F00931D60 /* HealthMonitor */,
+				70FE9CC72033668000931D60 /* HealthMonitorTests */,
+				70FE9CD22033668000931D60 /* HealthMonitorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		70FE9CCA2033668000931D60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 70FE9CB32033667F00931D60 /* CSE335_Homework_01 */;
+			target = 70FE9CB32033667F00931D60 /* HealthMonitor */;
 			targetProxy = 70FE9CC92033668000931D60 /* PBXContainerItemProxy */;
 		};
 		70FE9CD52033668000931D60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 70FE9CB32033667F00931D60 /* CSE335_Homework_01 */;
+			target = 70FE9CB32033667F00931D60 /* HealthMonitor */;
 			targetProxy = 70FE9CD42033668000931D60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,10 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H6TLWT5APF;
-				INFOPLIST_FILE = CSE335_Homework_01/Info.plist;
+				INFOPLIST_FILE = HealthMonitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "yangkang.CSE335-Homework-01";
+				PRODUCT_BUNDLE_IDENTIFIER = yangkang.HealthMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,10 +468,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H6TLWT5APF;
-				INFOPLIST_FILE = CSE335_Homework_01/Info.plist;
+				INFOPLIST_FILE = HealthMonitor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "yangkang.CSE335-Homework-01";
+				PRODUCT_BUNDLE_IDENTIFIER = yangkang.HealthMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,7 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSE335_Homework_01.app/CSE335_Homework_01";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthMonitor.app/HealthMonitor";
 			};
 			name = Debug;
 		};
@@ -507,7 +505,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSE335_Homework_01.app/CSE335_Homework_01";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthMonitor.app/HealthMonitor";
 			};
 			name = Release;
 		};
@@ -544,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70FE9CAF2033667F00931D60 /* Build configuration list for PBXProject "CSE335_Homework_01" */ = {
+		70FE9CAF2033667F00931D60 /* Build configuration list for PBXProject "HealthMonitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70FE9CDA2033668000931D60 /* Debug */,
@@ -553,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70FE9CDC2033668000931D60 /* Build configuration list for PBXNativeTarget "CSE335_Homework_01" */ = {
+		70FE9CDC2033668000931D60 /* Build configuration list for PBXNativeTarget "HealthMonitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70FE9CDD2033668000931D60 /* Debug */,
@@ -562,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70FE9CDF2033668000931D60 /* Build configuration list for PBXNativeTarget "CSE335_Homework_01Tests" */ = {
+		70FE9CDF2033668000931D60 /* Build configuration list for PBXNativeTarget "HealthMonitorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70FE9CE02033668000931D60 /* Debug */,
@@ -571,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70FE9CE22033668000931D60 /* Build configuration list for PBXNativeTarget "CSE335_Homework_01UITests" */ = {
+		70FE9CE22033668000931D60 /* Build configuration list for PBXNativeTarget "HealthMonitorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70FE9CE32033668000931D60 /* Debug */,
