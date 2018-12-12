@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		701DCEF821A53D3F002D59EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701DCEF721A53D3F002D59EA /* AppDelegate.swift */; };
+		701DCEFE21A53D3F002D59EA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701DCEFD21A53D3F002D59EA /* GameScene.swift */; };
+		701DCF0021A53D3F002D59EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701DCEFF21A53D3F002D59EA /* ViewController.swift */; };
+		701DCF0221A53D3F002D59EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701DCF0121A53D3F002D59EA /* Assets.xcassets */; };
+		701DCF0521A53D3F002D59EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701DCF0321A53D3F002D59EA /* Main.storyboard */; };
+		701DCF1221A6CF82002D59EA /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 701DCF1121A6CF82002D59EA /* coin.mp3 */; };
+		701DCF1421A6D0DF002D59EA /* boom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 701DCF1321A6D0DF002D59EA /* boom.mp3 */; };
+		701DCF1621A6D395002D59EA /* wang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 701DCF1521A6D394002D59EA /* wang.mp3 */; };
+		701DCF1821A794D4002D59EA /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701DCF1721A794D4002D59EA /* Welcome.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		701DCEF421A53D3F002D59EA /* SpritgKitGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpritgKitGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		701DCEF721A53D3F002D59EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		701DCEFD21A53D3F002D59EA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		701DCEFF21A53D3F002D59EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		701DCF0121A53D3F002D59EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		701DCF0421A53D3F002D59EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		701DCF0621A53D3F002D59EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701DCF0721A53D3F002D59EA /* SpritgKitGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpritgKitGame.entitlements; sourceTree = "<group>"; };
+		701DCF1121A6CF82002D59EA /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
+		701DCF1321A6D0DF002D59EA /* boom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom.mp3; sourceTree = "<group>"; };
+		701DCF1521A6D394002D59EA /* wang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wang.mp3; sourceTree = "<group>"; };
+		701DCF1721A794D4002D59EA /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		701DCEF121A53D3F002D59EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		701DCEEB21A53D3E002D59EA = {
+			isa = PBXGroup;
+			children = (
+				701DCEF621A53D3F002D59EA /* SpritgKitGame */,
+				701DCEF521A53D3F002D59EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		701DCEF521A53D3F002D59EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				701DCEF421A53D3F002D59EA /* SpritgKitGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		701DCEF621A53D3F002D59EA /* SpritgKitGame */ = {
+			isa = PBXGroup;
+			children = (
+				701DCEF721A53D3F002D59EA /* AppDelegate.swift */,
+				701DCEFD21A53D3F002D59EA /* GameScene.swift */,
+				701DCEFF21A53D3F002D59EA /* ViewController.swift */,
+				701DCF1721A794D4002D59EA /* Welcome.swift */,
+				701DCF1321A6D0DF002D59EA /* boom.mp3 */,
+				701DCF1121A6CF82002D59EA /* coin.mp3 */,
+				701DCF1521A6D394002D59EA /* wang.mp3 */,
+				701DCF0121A53D3F002D59EA /* Assets.xcassets */,
+				701DCF0321A53D3F002D59EA /* Main.storyboard */,
+				701DCF0621A53D3F002D59EA /* Info.plist */,
+				701DCF0721A53D3F002D59EA /* SpritgKitGame.entitlements */,
+			);
+			path = SpritgKitGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		701DCEF321A53D3F002D59EA /* SpritgKitGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701DCF0A21A53D3F002D59EA /* Build configuration list for PBXNativeTarget "SpritgKitGame" */;
+			buildPhases = (
+				701DCEF021A53D3F002D59EA /* Sources */,
+				701DCEF121A53D3F002D59EA /* Frameworks */,
+				701DCEF221A53D3F002D59EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpritgKitGame;
+			productName = SpritgKitGame;
+			productReference = 701DCEF421A53D3F002D59EA /* SpritgKitGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		701DCEEC21A53D3E002D59EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Zhonghao Wang";
+				TargetAttributes = {
+					701DCEF321A53D3F002D59EA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 701DCEEF21A53D3E002D59EA /* Build configuration list for PBXProject "SpritgKitGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 701DCEEB21A53D3E002D59EA;
+			productRefGroup = 701DCEF521A53D3F002D59EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				701DCEF321A53D3F002D59EA /* SpritgKitGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		701DCEF221A53D3F002D59EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701DCF0221A53D3F002D59EA /* Assets.xcassets in Resources */,
+				701DCF1621A6D395002D59EA /* wang.mp3 in Resources */,
+				701DCF0521A53D3F002D59EA /* Main.storyboard in Resources */,
+				701DCF1221A6CF82002D59EA /* coin.mp3 in Resources */,
+				701DCF1421A6D0DF002D59EA /* boom.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		701DCEF021A53D3F002D59EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701DCF1821A794D4002D59EA /* Welcome.swift in Sources */,
+				701DCF0021A53D3F002D59EA /* ViewController.swift in Sources */,
+				701DCEFE21A53D3F002D59EA /* GameScene.swift in Sources */,
+				701DCEF821A53D3F002D59EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		701DCF0321A53D3F002D59EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				701DCF0421A53D3F002D59EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		701DCF0821A53D3F002D59EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		701DCF0921A53D3F002D59EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		701DCF0B21A53D3F002D59EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpritgKitGame/SpritgKitGame.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpritgKitGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.SpritgKitGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		701DCF0C21A53D3F002D59EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpritgKitGame/SpritgKitGame.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpritgKitGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.SpritgKitGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		701DCEEF21A53D3E002D59EA /* Build configuration list for PBXProject "SpritgKitGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701DCF0821A53D3F002D59EA /* Debug */,
+				701DCF0921A53D3F002D59EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701DCF0A21A53D3F002D59EA /* Build configuration list for PBXNativeTarget "SpritgKitGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701DCF0B21A53D3F002D59EA /* Debug */,
+				701DCF0C21A53D3F002D59EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 701DCEEC21A53D3E002D59EA /* Project object */;
+}
