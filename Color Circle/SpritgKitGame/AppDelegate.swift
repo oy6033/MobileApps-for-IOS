@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SpritgKitGame
 //
-//  Created by Zhonghao Wang on 2018/11/21.
-//  Copyright © 2018年 Zhonghao Wang. All rights reserved.
+//  Created by Yangkang Ou 2018/11/21.
+//  Copyright © 2018年 Yangkang Ou. All rights reserved.
 //
 
 
